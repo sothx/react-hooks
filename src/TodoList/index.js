@@ -30,7 +30,7 @@ function TodoList() {
           }
         </ul>
         <input type="text" />
-        <button>添加</button>
+        <button onClick={(e) => handleClick(e)}>添加</button>
       </form>
     </div>
   )
